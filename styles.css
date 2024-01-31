@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+
+
+.nav-item, .nav-heading{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.large{
+    font-size: large;
+    font-weight: bold;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar{
+    padding: 5px;
+    background-color: rgb(116, 169, 205);
+}
+
+.nav-heading h1{
+    color: black;
+}
+
+
+hr{
+    margin: 0;
+    border: 1px solid black;
+}
+
+body{
+    min-width: 720px;
+}
+
+.header{
+    display: flex;
+    padding-top: 50px;
+}
+
+
+.education{
+    width: 95%;
+    border: solid black 1px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    margin-top: 50px;
+    
+}
+.education-table{
+    width: 100%;
+}
+
+footer{
+    height: 50px;
+    background-color: rgb(116, 169, 205);
+    padding-top: 10px;
+}
+.left{
+    width: 70%;
+    padding: 10px;
+}
+
+.main{
+    /* background: linear-gradient(0.18turn, #367E18, #C7E8CA, #DF2E38); */
+    background: lightblue;
+    color: rgb(22, 21, 21);
+    padding-bottom: 10px;
+}
+.main-about{
+    background: lightblue;
+    color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+.main-contact{
+    background: linear-gradient(90deg,#648dda );
+
+    color: rgb(35, 34, 34);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.form h1, label, input, textarea{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 2rem;
+    border-radius: 12px;
+}
+input{
+    padding: 5px;
+}
+
+.form{
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #389488;
+    padding: 50px;
+    text-align: center;
+    border-radius: 12px;
+    font-size: 2rem;
+}
+
+textarea{
+    text-align: left !important;
+    color: #648dda;
+}
+.counter-div{
+    width: 95%;
+    border: solid black 5px;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 50px;
+    height: 270px;
+    color: black;
+    font-size: large;
+}
+#counter{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#lower-count, #higher-count{
+    padding: 5px;
+    border-radius: 12px;
+    color: rgb(46, 43, 43);
+    font-size: large;
+   
+}
+#lower-count{
+    background-color: red;
+}
+
+#higher-count{
+    background-color: green;
+}
+#submit{
+    margin-top: 50px;
+    margin-bottom:  50px;
+}
+
+.red{
+    color: rgb(95, 160, 182) !important;
+}
+.white{
+    color: rgb(24, 23, 23) !important;
+}
+
+.black{
+    color: black;
+}
+
+.green{
+    background-color: #389488 !important;
+}
+.grey{
+    background-color: #389488 ;
+  
+}
+h2{
+    text-decoration: underline;
+}
